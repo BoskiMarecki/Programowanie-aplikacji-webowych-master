@@ -1,0 +1,14 @@
+@import 'variable';
+@import 'mixins';
+@import 'game';
+@import 'menu';
+@import 'main';
+@import '../tictactoe/styles/tictactoe';
+@import 'toggle';
+body {
+    background-color: var(--background-color);
+}
+
+.gameIcon {
+    width: 50px;
+}
